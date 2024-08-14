@@ -1,0 +1,118 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #1262F7, #1E0653);
+  position: relative; /* Add this line to enable absolute positioning of the image */
+}
+
+.top-right-image {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.top-left-image {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  width: 100px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.login-form {
+  background: white;
+  padding: 35px 75px 35px 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  height: 50vh;
+  width: 300px;
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 35px;
+  margin-left: 30px;
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button[type="submit"],
+.login-form button[type="button"],
+.login-form .admin-login {
+  width: 114%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 16px;
+  height: 45px;
+}
+
+.login-form button[type="submit"],
+.login-form .admin-login {
+  background-color: #1262F7;
+  color: white;
+  margin-top: 10px;
+}
+
+.login-form button[type="submit"]:hover,
+.login-form .admin-login:hover {
+  background-color: #0a4bcb;
+}
+
+.login-form button[type="button"] {
+  background-color: #f7f7f7;
+  color: #1262F7;
+  font-size: 15px;
+}
+
+.login-form button[type="button"]:hover {
+  background-color: #e0e0e0;
+}
+
+.submit {
+
+  display: flex;
+  justify-content: space-between; /* Horizontally center */
+  gap: 40px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+

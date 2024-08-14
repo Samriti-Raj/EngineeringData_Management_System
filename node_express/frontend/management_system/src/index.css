@@ -1,0 +1,8 @@
+.modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+}
+
+.modal-header .close {
+  margin: -1rem -1rem -1rem auto;
+}

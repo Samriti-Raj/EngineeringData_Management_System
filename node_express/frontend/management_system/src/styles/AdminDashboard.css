@@ -1,0 +1,170 @@
+/* Dashboard.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #004dff, #001a66);
+    color: white;
+  }
+  
+  .dashboard {
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-container button {
+    padding: 6px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #005ce6;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .info-card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #3066be;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #003d99;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size:14px;
+  }
+
+  .date-filters {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .date-filters label {
+    margin-right: 10px;
+  }
+  
+  .date-filters input {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 20px;
+  }
+  
+  /* Add this to your existing AdminDashboard.css file */
+
+/* Pagination Container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.page-item {
+  margin: 0 0.5rem;
+}
+
+.page-link {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  background: none;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  color:#e9ecef ;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  background: #007bff;
+}
+
+.active .page-link {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.export-csv-button {
+  /* Example styling */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 75rem;
+}
+
+.export-csv-button:hover {
+  background-color: #0056b3;
+}
+
+  
+
+  
